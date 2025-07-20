@@ -1,0 +1,9 @@
+@import 'tailwindcss/preflight';
+@import 'tailwindcss/utilities';
+
+body {
+  background: linear-gradient(to bottom right, #111827, #1f2937); /* glassy bg */
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  direction: rtl; /* will be updated by UserSettingsContext */
+}
